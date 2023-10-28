@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Lecture1</title>
+    
+<link rel="Stylesheet" href="C%20Programming%20Lectures_files/style.css"></head>
+<body>
+    <h1><u><i>Lecture 1</i></u></h1>
+    <br>
+    <div id="z1">
+        JS__Tutorials
+    </div>
+    <h2><u>History of C Programming</u></h2>
+    <p>
+    - Founder of C language is <u><i><b>Dennis Ritchie</b></i></u>
+    <br>
+    - In the year of 1970
+    <br>
+    - At Bell Laboratories
+    <br>
+    -Basic Combined Programming Language(BCPL) existed in olden times.To this BCPL a scientist by name <u><i><b>Ken Thompson B</b></i></u> added some extra features to it and developed a language called B language.
+    <br>
+    -Denni Ritchie took inspiration and developed C language and named it as C as it was inspired from B.
+    <br>
+    </p><h5 style="color:red"><b><i><u>There is no short cut or full form for letter C in C language</u></i></b></h5>
+    <br>
+    <p></p>
+    <hr>
+    <h2><u>Basic Terminologies To Know</u></h2>
+    <p>
+    - <u><b><i>Compiler</i></b></u>:- compiler is a special program that converts high level language to machine level language after the completion of program
+    <br>
+    - <u><b><i>Interpreter</i></b></u>:- Interpreter is a program that does not convert high level language to machine code but directly executes it line by line
+    <br>
+    - <u><b><i>Procedural/Structural Oriented programming language</i></b></u>:-A
+ program can be divided into more than one part,each part is considered 
+as a function in which the execution(running of code)follows top down 
+approach.It has a specific format and structure.
+    <br>
+    - <u><b><i>Object Oriented programming language</i></b></u>:- A 
+program which can be into many parts,each part is considered as an 
+object that represents real world entity in which the execution follows a
+ bottom up approach i.e from the main method 
+    <br>
+    </p>
+    <hr>
+    <h2>Structure of C (8marks-<b>Important Question</b>)</h2>
+    <p>
+    - structure basically means a specific format or writing something 
+in most accurate way according to syntax (a general represntation of 
+code)
+    <br>
+    - It is divided into 6 parts:
+      </p><div id="c1">Documentation</div>
+      <div id="c2">Preprocessor Section</div>
+      <div id="c3">Preprocessor Definition</div>
+      <div id="c4">Global Declaration</div>
+      <div id="c5">Main Method()</div>
+      <div id="c6">Subprogram</div><p></p>
+      <br>
+      <p>
+      <u><b>Documentation</b></u>
+      - Description of filename,author,date and time at which program is
+ being written has to be written in the form of comments(lines for the 
+programmer to understand but not to be displayed on the output screen)
+      <br>
+      <u><b>Preprocessor Section</b></u>
+      - # include <stdio.h> states that the symbol # is a preprocessor 
+i.e as the name suggests pre processing is going to take place until the
+ preprocessor definition.
+      - stdio.h stands for standard input output. header file(consists 
+of all files related to input and output)
+      - include means to include all the lines of code written under it
+      <br>
+      <u><b>Preprocessor Defination</b></u>
+      - when the compiler reaches # define-----(--- means add any data type) actual processing of machine code begins
+      <br>
+      <u><b>Global Declaration</b></u>
+      - Declaration means declaring a variable name with data type so 
+that memory allocation takes place for the given variable name
+      - Global  is a type of variable declaration which  indicates  
+declaration of variable outside the method to allow access to all the 
+data members in the program
+      <br>
+      <u><b>Main Method</b></u>
+      - All the lines of code are included  under main method
+      <br>
+      <u><b>Subprograms</b></u>
+      - All the functions/methods under main method are all considered as Subprograms<br></stdio.h></p>
+      <hr>
+      <u><b><h2>Data Types</h2></b></u>
+      <p>
+      - Data types define the type of data stored in the variable 
+name.It also shows the amount of memory (place where data is stored)that
+ is allocated for the declared variables.
+      <br>
+      - Data types is divided into:</p><pre>                                  -Premitive Data types
+                                  -Non-Premitive Data Types
+                                  -Derived Data types</pre>
+       <u><b><h2>Premitive Data Types</h2></b></u>
+       <p>Data size or amount of memory allocation is fixed according to
+ the data type no more changes can take place in the allocation size.</p>
+       It is classified into 5 types:<p></p>
+      
+      <div id="a2">int</div>
+      <div id="a3">float</div>
+      <div id="a4">double</div>
+      <div id="a5">Char</div>
+      <div id="a6">Boolean</div>
+      <p>
+      - <u><b>int</b></u>:- int represents integer datatype. Both 
+signed(i.e range includes both positive and negative number) and 
+unsigned (range starts from 0 to positive number)int are 
+presnt.Depending on size of operating System used (32 bit or 64 bit)long
+ int  and short int are also available
+                      </p><pre>  int-32 bits(4bytes)
+                             short int-16bits(2bytes)
+                             long int-32 bits(4bytes)</pre><p></p>
+     <br>
+     -<p> <u><b>float</b></u>:-float represents numbers with single precision floating point i.e it can store upto 6 decimal places after decimal
+                     </p><pre>   float-32 bits(4bytes)</pre><p></p>
+     <br>
+     - <p><u><b>double</b></u>:-double representsnumbers with double precision floating point it can store upto 16 decimal places after the decimal point.
+               </p><pre>         double-64 bits(8bytes)</pre><p></p>
+    <br>
+     - <p><u><b>char</b></u>:-char represents a single character within a single quotes('')
+                 </p><pre>       char-8 bits (1byte) </pre><p></p>
+    <br>
+     - <p><u><b>boolean</b></u>:-boolean return true or false for the given conditions
+                </p><pre>        boolean-8 bits(1byte)</pre><p></p>
+    <br><p></p>
+    <hr>
+    <u><b><h2>Non Premitive Data Types</h2></b></u>
+    <p>
+    Data size or memory allocationis not fixed,it depends on the length 
+of code/statement and memory will be allocated accordingly
+    It is classified into 2 major types:
+    </p><div id="b2">arrays</div>
+    <div id="b3">Strings</div>
+    - <p><u><b>arrays</b></u>:- Array represents collection of elements belonging to same data type.</p>
+    <br>
+    - <p><u><b>strings</b></u>:-strings consistsof collection of characters within double quotes ("")</p>
+    <br>
+    <hr>
+    <u><b><h2>Derived Data types</h2></b></u>:- are rarely discussed and are not of much importance,so just the classifications are given below for your knowledge
+    <div id="d4">structure</div>
+      <div id="d5">union</div>
+      <div id="d6">enum</div>
+      <p></p>
+      <hr>
+
+
+
+    
+                                          
+                                  
+
+
+
+                                
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
